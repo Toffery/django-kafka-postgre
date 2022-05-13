@@ -57,10 +57,10 @@ Now go to URL http://127.0.0.1:8000/api/v1/message/ via PostMan, for example.
 
 In the body write your data using this form:
 
-    `{
+    {
         "user_id": int,
         "message": "text"
-    }`
+    }
 
 This data will be sent to kafka via producer, 
 then consumer will receive this message and validate it.
