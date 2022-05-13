@@ -1,0 +1,6 @@
+data/
+docker-compose.yml
+migrations/
+Dockerfile
+.idea/
+.DS_Store
