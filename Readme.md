@@ -43,8 +43,11 @@ Replace `'NAME', 'USER', 'PASSWORD'` with your `<db_name>, <user_name>, <your_pa
 ## Migrate
 
 Run `python3 manage.py makemigrations msg_api`
+
 Run `python3 manage.py migrate`
+
 Run `python3 manage.py runserver`
+
 In other terminal run `cd msg_api` `python3 consumer.py`
 
 ## Create users
