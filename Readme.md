@@ -65,7 +65,7 @@ In the body write your data using this form:
 This data will be sent to kafka via producer, 
 then consumer will receive this message and validate it.
 
-## If you can use your own Kafka cluster.
+## If you want to use your own Kafka cluster.
 
 Go to [confluent.io](https://www.confluent.io/).
 Sign up and get a free trial.
